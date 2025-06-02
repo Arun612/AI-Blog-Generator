@@ -30,9 +30,13 @@ This project is an **AI-powered blog generation system** that creates rich, info
 
 ## 📂 Project Structure
 📁 ai-blog-generator/
+
 ├── main.py 
+
 ├── .env # Contains GROQ_API_KEY 
+
 ├── requirements.txt 
+
 └── README.md # Project documentation (this file)
 
 ---
