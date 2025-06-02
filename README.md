@@ -9,7 +9,7 @@ This project is an **AI-powered blog generation system** that creates rich, info
 - 🔍 **Automated Research**: Gathers information from Wikipedia and DuckDuckGo using LangChain tools.
 - ✍️ **AI-Generated Titles**: Creates compelling, SEO-friendly blog titles.
 - 📄 **Structured Content**: Organizes blogs into Introduction, Main Content (with subheadings), and Summary.
-- 🧠 **LLM-Powered**: Uses the `gemma2-9b-it` model from Groq for natural and coherent language generation.
+- 🧠 **LLM-Powered**: Uses the `llama-3.1-8b-instant` model from Groq for natural and coherent language generation.
 - ⚙️ **Tool-Oriented Agent**: Employs a LangChain agent to fetch and reason with live search data.
 - 🌐 **Web UI with Gradio** (optional): Easily extendable to a web interface for non-technical users.
 
@@ -56,8 +56,4 @@ This project is an **AI-powered blog generation system** that creates rich, info
 git clone https://github.com/Arun612/AI-Blog-Generator.git
 cd ai-blog-generator
 pip install -r requirements.txt
-
-### Create a .env file with your Groq API key
-
-### Run python main.py
 
