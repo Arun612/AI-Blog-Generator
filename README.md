@@ -20,7 +20,7 @@ This project is an **AI-powered blog generation system** that creates rich, info
 | Component         | Description                                      |
 |------------------|--------------------------------------------------|
 | 🧠 **LangChain**     | Framework for chaining LLMs and tools            |
-| 🦾 **Groq LLM (Gemma 2-9B)** | High-performance inference using Groq platform |
+| 🦾 **Groq LLM (llama-3.1-8b-instant)** | High-performance inference using Groq platform |
 | 🔎 **Wikipedia & DuckDuckGo APIs** | For factual research on the given topic     |
 | 🧱 **Prompt Engineering** | Custom templates for title, research, summary, and full blog |
 | 🖼 **Gradio (optional)** | UI for interacting with the blog generator     |
@@ -49,6 +49,24 @@ This project is an **AI-powered blog generation system** that creates rich, info
 4. **Step 3**: Summarize the research into key points.
 5. **Step 4**: Generate a full blog post with structured sections.
 6. **Output**: A complete blog post ready for publishing.
+
+---
+
+## 🔭 Scope for Improvements
+
+- 🖼 **Visual Content Generation**: Incorporate image generation agents (e.g., DALL·E or SDXL) to generate blog-cover images or infographics.
+- 🌐 **Multi-Source Research**: Enhance research quality by integrating more reliable sources like academic databases or news APIs.
+- 🧩 **Multi-Lingual Support**: Extend support for generating blogs in regional or international languages.
+- 💬 **Voice Output**: Add a TTS (text-to-speech) module to generate podcasts from blogs.
+- 📊 **SEO Analysis**: Integrate tools for keyword density analysis and SEO performance suggestions.
+
+---
+
+## ⚠️ Challenges Faced
+
+- 💰 **Access to Efficient Models**: Most efficient LLMs with faster response times and better output quality (e.g., OpenAI GPT-4, Claude 3) required paid APIs, which constrained usage to free or community models.
+- 🔄 **Tool Latency**: Search-based tools like DuckDuckGo have rate limits or slower response times on free tiers, affecting performance consistency.
+- 🧪 **Content Relevance**: Extracted data from Wikipedia sometimes lacked real-time updates, affecting the freshness of content.
 
 ---
 
