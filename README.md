@@ -31,7 +31,7 @@ This project is an **AI-powered blog generation system** that creates rich, info
 ## 📂 Project Structure
 📁 ai-blog-generator/
 
-├── main.py 
+├── main.ipynb 
 
 ├── .env # Contains GROQ_API_KEY 
 
