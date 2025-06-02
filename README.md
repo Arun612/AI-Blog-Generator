@@ -48,12 +48,3 @@ This project is an **AI-powered blog generation system** that creates rich, info
 
 ---
 
-## 🧪 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Arun612/AI-Blog-Generator
-cd ai-blog-generator
-pip install -r requirements.txt
-
