@@ -17,8 +17,8 @@ This document provides step-by-step instructions to set up the AI Blog Generator
 If you have Git installed, clone the repo:
 
 ```bash
-git clone https://github.com/Arun612/AI-Blog-Generator.git
-cd AI-Blog-Generator
+git clone https://github.com/Arun612/BlogCrafter.git
+cd BlogCrafter
 ```
 
 Or download the ZIP file from GitHub and extract it.
