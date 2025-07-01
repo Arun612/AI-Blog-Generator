@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Blog Generator
+# 🧠BlogCraft, AI-Powered Blog Generator
 
 This project is an **AI-powered blog generation system** that creates rich, informative blog posts based on any given topic. It combines cutting-edge LLMs, search tools, and prompt engineering to generate detailed, SEO-optimized content.
 
